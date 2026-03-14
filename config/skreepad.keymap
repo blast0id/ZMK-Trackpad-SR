@@ -25,14 +25,14 @@
 
         bluetooth_layer {
             bindings = <
-&bt BT_CLR  &bt BT_NXT  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans      &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans      &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans      &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans      &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans                                                            &trans  &trans
-                                        &trans  &trans  &trans            &trans  &trans  &trans
-                                        &trans  &trans  &trans            &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans      &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans      &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans      &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans      &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans                                                                        &trans  &trans
+                                &bt BT_CLR      &bt BT_NXT  &trans            &trans  &trans  &trans
+                                &bt BT_CLR_ALL  &trans      &trans            &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
