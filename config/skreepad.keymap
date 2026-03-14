@@ -40,14 +40,14 @@
 
         function_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans           &trans           &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans           &trans           &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans           &trans           &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans           &trans           &trans  &trans  &trans  &trans  &trans
-                &trans  &trans                                                                              &trans  &trans
-                                &trans  &trans  &trans            &trans           &trans           &trans
-                                &trans  &trans  &trans            &trans           &trans           &trans
+&kp F13  &kp F14  &kp F15  &kp F16  &kp F17  &kp F18  &trans            &trans           &kp F19          &kp F20          &kp F21          &kp F22          &kp F23          &kp F24
+&trans   &trans   &trans   &trans   &trans   &trans   &trans            &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &trans
+&trans   &trans   &trans   &trans   &trans   &trans   &trans    &trans  &trans           &trans           &trans           &trans           &trans           &trans           &trans
+&trans   &trans   &trans   &trans   &trans   &trans   &trans            &trans           &trans           &trans           &trans           &trans           &trans           &trans
+&trans   &trans   &trans   &trans   &trans   &trans   &trans            &trans           &trans           &trans           &trans           &trans           &trans           &trans
+                  &trans   &trans                                                                                          &trans           &trans
+                                    &trans   &trans   &trans            &trans           &trans           &trans
+                                    &trans   &trans   &trans            &trans           &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
