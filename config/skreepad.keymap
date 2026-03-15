@@ -46,8 +46,8 @@
 &trans   &trans   &trans   &trans   &trans   &trans   &trans            &trans           &trans           &trans           &trans           &trans           &trans           &trans
 &trans   &trans   &trans   &trans   &trans   &trans   &trans            &trans           &trans           &trans           &trans           &trans           &trans           &trans
                   &trans   &trans                                                                                          &trans           &trans
-                                    &trans   &trans   &trans            &trans           &trans           &trans
-                                    &trans   &trans   &trans            &trans           &trans           &trans
+                                    &trans   &trans   &trans            &trans           &kp HOME         &kp PAGE_UP
+                                    &trans   &trans   &trans            &trans           &kp END          &kp PAGE_DOWN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
