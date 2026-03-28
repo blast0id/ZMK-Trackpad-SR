@@ -31,7 +31,7 @@
 &kp LSHFT  &kp Z   &kp X     &kp C      &kp V     &kp B      &kp END                          &kp PG_DN    &kp N     &kp M      &kp COMMA        &kp DOT   &kp FSLH  &kp RET
                    &kp LEFT  &kp RIGHT                                                                                          &kp PRINTSCREEN  &kp RGUI
                                         &kp DEL   &kp LCTRL  &kp LALT                         &kp DEL      &kp UP    &kp RSHFT
-                                        &kp BSPC  &kp SPACE  &mo 1                            &mo 2        &kp DOWN  &kp RET
+                                        &kp BSPC  &kp SPACE  &mo 1                            &mo 2        &kp DOWN  &kp SPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
